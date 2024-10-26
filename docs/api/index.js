@@ -1,3 +1,6 @@
-require("../build/server/main");
+const { default: app } = require("../build/server/main");
 
-module.exports = () => {};
+module.exports = async function handler(req, res) {
+  await app.ready();
+  app.server.emit("request", req, res);
+};

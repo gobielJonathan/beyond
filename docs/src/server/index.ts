@@ -1,13 +1,13 @@
 import app from "./app";
-import { error, info } from "ordijs/log";
+// import { error, info } from "ordijs/log";
 
-app
-  .start()
-  .then(() => {
-    info(`Listening: ${process.env.HOST_NAME}:${process.env.PORT_SERVER}`);
-  })
-  .catch((err) => {
-    error(err);
-  });
+// app
+//   .start()
+//   .then(() => {
+//     info(`Listening: ${process.env.HOST_NAME}:${process.env.PORT_SERVER}`);
+//   })
+//   .catch((err) => {
+//     error(err);
+//   });
 
-export default app;
+export default app.server;

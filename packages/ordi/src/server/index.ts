@@ -28,6 +28,7 @@ const Server = () => {
   });
 
   return {
+    server: app,
     start: async () => {
       try {
         await app.listen({

@@ -9,3 +9,5 @@ app
   .catch((err) => {
     error(err);
   });
+
+export default app;

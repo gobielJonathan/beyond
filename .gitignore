@@ -11,3 +11,4 @@ build
 dist
 
 examples/**/*-lock.*
+.vercel

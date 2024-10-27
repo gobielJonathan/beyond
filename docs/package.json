@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ordijs": "0.5.1-beta-1",
+    "ordijs": "0.5.2-beta-3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

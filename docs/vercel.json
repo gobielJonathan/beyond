@@ -8,7 +8,7 @@
   ],
   "functions": {
     "api/index.js": {
-      "includeFiles": "build/*"
+      "includeFiles": "./build/**/*"
     }
   }
 }

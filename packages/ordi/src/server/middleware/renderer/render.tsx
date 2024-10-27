@@ -22,8 +22,11 @@ type StaticRouterContext = StaticRouterProps["context"];
 /**
  * get from build/client
  */
-const statsFile = path.resolve(__dirname, "../client/loadable-stats.json");
-
+const statsFile = path.resolve(
+  process.cwd(),
+  "build/client/loadable-stats.json"
+);
+console.log("statsFile ", statsFile);
 function renderDocument({
   helmetContext,
   extractor,

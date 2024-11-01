@@ -10,7 +10,7 @@
   ],
   "functions": {
     "api/index.js": {
-      "includeFiles": "/build/client/loadable-stats.json"
+      "includeFiles": "docs/build/**/*"
     }
   }
 }

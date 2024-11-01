@@ -1,5 +1,7 @@
 {
   "version": 2,
+  "installCommand": "pnpm install",
+  "outputDirectory": "build",
   "rewrites": [
     {
       "source": "/(.*)",
@@ -8,7 +10,7 @@
   ],
   "functions": {
     "api/index.js": {
-      "includeFiles": "./build/**/*"
+      "includeFiles": "/build/client/loadable-stats.json"
     }
   }
 }
